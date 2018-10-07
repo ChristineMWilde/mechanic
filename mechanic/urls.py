@@ -20,7 +20,7 @@ from accounts import views as accounts_views
 from home import views as home_views
 from blog import views as blog_views
 from django.views.static import serve
-from settings.base import MEDIA_ROOT
+#from settings.base import MEDIA_ROOT
 from threads import views as forum_views
 
 
@@ -36,7 +36,7 @@ urlpatterns = [
     url(r'^subscriptions_webhook/$', accounts_views.subscriptions_webhook, name='subscriptions_webhook'),
     url(r'', include('blog.urls')),
     url(r'^blog/$', blog_views.post_list, name='blog'),
-    url(r'^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
+    #url(r'^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
     url(r'^forum/$', forum_views.forum, name='forum'),
     url(r'^threads/(?P<subject_id>\d+)/$', forum_views.threads, name='threads'),
     url(r'^new_thread/(?P<subject_id>\d+)/$',  forum_views.new_thread, name='new_thread'),

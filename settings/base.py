@@ -8,6 +8,7 @@ SECRET_KEY = 'anvl=@_fpv@ti5isdr9lcm)%dtn86)s$e4dl=8ae13y91aco(m'
  
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 SITE_ID = 2
+INTERNAL_IPS = ('127.0.0.1',)
  
 # Application definition
 INSTALLED_APPS = [
@@ -46,7 +47,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
-]
+    
+      ]
  
 ROOT_URLCONF = 'mechanic.urls'
  
@@ -99,7 +101,7 @@ STATICFILES_DIRS = (
    os.path.join(BASE_DIR, "static"),
 )
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/'
+#MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+#MEDIA_URL = '/media/'
 
 TINYMCE_JS_ROOT = os.path.join(BASE_DIR, "static", 'js', 'tinymce', 'tinymce.min.js')

@@ -14,7 +14,7 @@ DATABASES = {
 }
 
 #Disqus
-DISQUS_WEBSITE_SHORTNAME = 'codeinstitutesocialstaging'
+#DISQUS_WEBSITE_SHORTNAME = 'codeinstitutesocialstaging'
  
 # Stripe environment variables
 STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_huXVMABXPzJmtBClroUo7vFA')
