@@ -20,7 +20,7 @@ from accounts import views as accounts_views
 from home import views as home_views
 from blog import views as blog_views
 from django.views.static import serve
-from .settings import MEDIA_ROOT
+from settings.base import MEDIA_ROOT
 from threads import views as forum_views
 
 

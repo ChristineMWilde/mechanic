@@ -14,8 +14,8 @@ STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_huXVMABXPzJmtBClro
 STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_qgkn8rHXvHGEtPaqreOCeXi7')
  
  
-SITE_URL = 'https://your-heroku-app.herokuapp.com'
-ALLOWED_HOSTS.append('your-heroku-app.herokuapp.com')
+SITE_URL = 'https://motorholics-app.herokuapp.com'
+ALLOWED_HOSTS.append('motorholics-app.herokuapp.com')
  
  
 # Log DEBUG information to the console
