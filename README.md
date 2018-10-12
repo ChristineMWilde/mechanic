@@ -61,10 +61,13 @@ The below table explains how to deploy the application.
 ```
 
 ### REUSABLE APPS are found here: 
-[accounts app](https://github.com/ChristineMWilde/reusable-accounts-app.git)
-[blog app](https://github.com/ChristineMWilde/reusable-blog-app.git)
-[forum/threads app](https://github.com/ChristineMWilde/reusable-threads-app.git)
-[polls app](https://github.com/ChristineMWilde/reusable-polls-app.git)
+* [accounts app](https://github.com/ChristineMWilde/reusable-accounts-app.git)
+
+* [blog app](https://github.com/ChristineMWilde/reusable-blog-app.git)
+
+* [forum/threads app](https://github.com/ChristineMWilde/reusable-threads-app.git)
+
+* [polls app](https://github.com/ChristineMWilde/reusable-polls-app.git)
 
 TESTING observations:
 
