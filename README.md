@@ -1,7 +1,7 @@
 
 # Christine Wilde's Stream Three Project
 
-Please note the entire project is described under the "documentation" folder in the word document named FinalProjectStreamThree.doc.
+Please note the entire project is described under the "Documentation for project" folder in the word document named FinalProjectStreamThree.doc.
 
 The goal of the stream three project is to build a Django project composed of multiple applications (apps). The Django project should include an ecommerce element to it, establish a login/logout authentication mechanism for users to the Website and connect to a database to store Website data.
 
@@ -19,9 +19,6 @@ The Website includes the following technologies:
 * Disqus - (Global comments/discussion platform/API)
 * Stripe - (Payment processing API)
 * Tinymce/Font Awesome (WYSIWYG HTML editor and Font Awesome for styling using icons)
-
-
-
 * Car Blog - (mechanics car topics)
 * Car Forum - (mechanics and users discussion forum – help site!)
 * User Registration - (register to ask for advice via a small subscription)
@@ -53,11 +50,12 @@ The below table explains how to deploy the application.
 
 ```sh
 
-1. For the live version please go to the Heroku deployed app at (enter heroku link): 
-2. To run locally download all files from (enter github link):
+1. For the live version please go to the Heroku deployed app at: https://motorholics-app.herokuapp.com/
+2. To run locally download all files from: https://github.com/ChristineMWilde/mechanic.git 
 3. All requirements are found in the requirements.txt file.
-4. Please go to the project root and run: python manage.py runserver
-5. Please read "FinalProjectStreamThree.doc" for detailed information on this project. This document is found under the folder "Documentation for project" folder
+4. Please note that the Media/Image Upload and Disqus functionality only works for the dev environment.
+4. Please go to the project root and run: python manage.py runserver.
+5. Please read "FinalProjectStreamThree.doc" for detailed information on this project. This document is found under the folder "Documentation for project" folder.
 ```
 
 ### REUSABLE APPS are found here: 
@@ -76,4 +74,6 @@ TESTING observations:
   * Any updates to HTML element ID's should be thoroughly investigated across all files that may have an effect on them.
 
   * The Django framework provided a great consolidated view of all python, static and template files working together.
+
+  * An API will be required for Disqus and Media storing files in order to run in the staging environment.
 
